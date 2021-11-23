@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+[class*="col-"] {
+    float: left;
+    padding: 5px;
+}
+[class*="col-"] {
+		width: 100%;
+		}
+.row::after {
+	    content: "";
+	    clear: both;
+	    display: table;
+}
+.col-s-1 {width: 8.33%;}
+.col-s-2 {width: 16.66%;}
+.col-s-24 {width: 20%;}
+.col-s-3 {width: 25%;}
+.col-s-4 {width: 33.33%;}
+.col-s-5 {width: 41.66%;}
+.col-s-6 {width: 50%;}
+.col-s-7 {width: 58.33%;}
+.col-s-8 {width: 66.66%;}
+.col-s-9 {width: 75%;}
+.col-s-10 {width: 83.33%;}
+.col-s-11 {width: 91.66%;}
+.col-s-12 {width: 100%;}
+
+.no-tablet{ display: none;}
+nav { font-size:20px}
+
+/* Dropdown Button */
+.dropbtn {
+ background-color:black;
+  color: white;
+  padding: 16px;
+  font-size: 60px;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+  text-align:left;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  background-color:black;
+
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+.col-p-10 {width: 83.33%;
+			font-size:30px;}
+.col-p-1 {width: 13.33%;
+}
+
+nav img {
+	width: 33.33%;
+}
+footer img {
+	width: 5%;
+	height: 5%;
+	padding-top: 20px;
+}
+
+.no-tablet {
+	display: none;
+}
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+th {
+	font-size: 1.75vh;
+	
+}
+td {
+		font-size: 1.5vh;
+
+}
+
+.paragraph-textcol {
+	padding-top: 120px;
+	
+}

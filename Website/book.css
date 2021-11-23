@@ -1,0 +1,34 @@
+.arrow {
+	text-align:center;
+	border: 2px solid black;
+}
+.stand {
+	text-align:center;
+	border: 2px solid red;
+	background-color:none;
+	font-family: adamina, belgrano, allerta, "alegreya-sc";
+	font-weight: 400;
+
+	font-size: x-large;
+}
+.one {
+	text-align: center;
+	border: 2px solid blue;
+	font-family: adamina, belgrano, allerta, "alegreya-sc";
+	font-weight: 400;
+	font-size: x-large;
+}
+.one:hover {
+	background-color: blue;
+	color:white;
+}
+.stand:hover {
+	background-color: red;
+	color:white;
+}
+.displayoff {
+	visibility: hidden;
+}
+#form_view {
+	visibility: hidden;
+}
